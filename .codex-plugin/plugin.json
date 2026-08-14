@@ -1,0 +1,34 @@
+{
+    "name": "revops-skills",
+    "version": "0.1.0",
+    "description": "Skills for revenue operations — CRM data governance, pipeline and funnel management, lead routing and scoring, deal desk, forecasting, KPIs, and sales-to-CS handoff.",
+    "author": {
+        "name": "Maya-Beth Finotti",
+        "email": "mbfinotti@gmail.com"
+    },
+    "homepage": "https://github.com/mbfinotti/revops-skills",
+    "repository": "https://github.com/mbfinotti/revops-skills",
+    "license": "MIT",
+    "keywords": [
+        "revops",
+        "sales-ops",
+        "crm",
+        "pipeline",
+        "lead-routing",
+        "lead-scoring",
+        "forecasting",
+        "revenue-operations",
+        "ai-agent-skills",
+        "agentic",
+        "skills"
+    ],
+    "skills": "./skills/",
+    "interface": {
+        "displayName": "RevOps Skills",
+        "shortDescription": "AI agent skills for revenue operations",
+        "developerName": "Maya-Beth Finotti",
+        "category": "Operations",
+        "capabilities": ["Read"],
+        "websiteURL": "https://github.com/mbfinotti/revops-skills"
+    }
+}
