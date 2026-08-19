@@ -89,7 +89,7 @@ The last three questions set the spine ranking before any metric is chosen:
 
   If the cause is not yet confirmed, say so - a premature cause presented as fact is the next restatement.
 
-- "Macro environment" is not a cause unless accompanied by data separating market movement from execution.
+- "Macro environment" is not a cause unless data separates market movement from execution.
 
 ## Reconciliation, restatement, and sign-off
 
