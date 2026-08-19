@@ -190,7 +190,7 @@ Run every candidate metric through two gates before it enters the framework; ful
 
 ## B2B and B2C
 
-- **B2B subscription:** the tree is retention-weighted - NRR/GRR and the ARR waterfall on top, pipeline drivers (coverage, win rate, deal size) under the new-logo branch, expansion and churn drivers under the retention branch. Logo retention and dollar retention are separate nodes; netting them hides opposite dynamics.
+- **B2B subscription:** the tree is retention-weighted - NRR/GRR and the ARR waterfall on top, pipeline drivers (coverage, win rate, deal size) under the new-logo branch, and expansion and churn drivers under the retention branch. Logo retention and dollar retention are separate nodes; netting them hides opposite dynamics.
 - **B2C subscription/transactional:** the tree is repeat-purchase-weighted - cohort retention curves (they must flatten; great ones smile), repeat purchase rate, DAU/MAU where frequency genuinely matters, and the CM1/CM2/CM3 contribution stack as the efficiency spine. Prefer contribution-margin LTV and cohort curves over point-estimate LTV formulas, whose inputs are interdependent rather than independent.
 - What is identical in both, and worth saying so:
   - reconciling decomposition
