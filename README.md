@@ -10,7 +10,7 @@ Every skill produces a **decision or an artifact** you can ship: a scorecard, a 
 
 ## Related Collections
 
-Other skills repositories I built for my colleagues at Nativa Labs:
+Other skills repositories I built for my colleagues at **Nativa Labs**:
 
 - [`advertising-skills`](https://github.com/mbfinotti/advertising-skills): Ad platform mastery: _for performance marketers, paid media managers, growth leads_
 - [`partnerships-skills`](https://github.com/mbfinotti/partnerships-skills): Partner ecosystem operations: _for partner managers, BD leads, ecosystem heads_
