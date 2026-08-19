@@ -147,7 +147,7 @@ KPIs         : five-KPI scoreboard + measurement definitions
   - Margin
   - Leakage
 
-  Speed-only approves bad deals fast; margin-only produces gridlock and reps routing around the desk.
+  Speed-only approves bad deals fast; margin-only produces gridlock, and reps route around the desk.
 
 - Measure cycle time from complete submission to recorded-and-communicated decision, in business hours; report median AND 90th percentile, never the mean - the p90 tail is what fuels bypass behavior.
 - Also watch:
