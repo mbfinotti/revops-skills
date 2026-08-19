@@ -38,7 +38,7 @@ One composite score, or a separate expansion model:
 - **One composite, top band gates expansion (default).** Already the score being built and validated; a second model costs a quarter to build and two validation loops to keep. Gating expansion plays on the top band is the dominant practitioner pattern: low bands trigger retention, the top band triggers expansion/advocacy motions.
 - **A separate expansion model.** Justified only when expansion-specific inputs are systematically tracked; otherwise it is a second unvalidated score.
 
-That high health causally predicts expansion is supported only by vendor case studies, never by a rigorous published study. Treat health as necessary but not sufficient for expansion: the top band earns an account the conversation, and fit, whitespace, and budget decide it.
+Only vendor case studies support the claim that high health causally predicts expansion; no rigorous published study does. Treat health as necessary but not sufficient for expansion: the top band earns an account the conversation, and fit, whitespace, and budget decide it.
 
 B2B and B2C/PLG share most of the mechanics: per-seat normalization, trend-over-level, an action wired to every band, and the backtest loop are identical in both. Say so when asked. What genuinely differs:
 
