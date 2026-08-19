@@ -73,7 +73,7 @@ Ask before judging anything. One question per message; multiple-choice where pos
    - **Critical** - exit criterion is pure rep activity or undocumented; advancement is opinion.
    - **High** - criterion references the buyer but is unverifiable or recorded nowhere checkable.
    - **Medium** - verifiable but ambiguous; two managers could plausibly disagree.
-   - **Low** - criteria sound; defect is naming, ordering, or redundancy.
+   - **Low** - criterion sound; defect is naming, ordering, or redundancy.
 
    Severity is the value axis of a finding, never its queue position. A Critical defect fixed by one wording change ships before a Medium one that needs a picklist migration. Tag each finding with the rung it lands on and that rung's effort order of magnitude, then order the list by Remediation Order below.
 
