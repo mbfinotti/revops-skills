@@ -255,7 +255,7 @@ Skip this section unless the user names one of these platforms.
 
 - **Salesforce:** one active lead assignment rule per object, entries evaluated top-down first-match. API-created leads skip the rule unless the assignment-rule header is set, and native territory management does not cover leads or round-robin.
 - **HubSpot:** rotation fairness is counted per rotate action, not per global ownership, so two individually fair workflows can produce a lopsided total. Adding or removing an owner resets the rotation.
-- **Dynamics 365:** sellers who never configure availability are treated as always available and silently become the fallback.
+- **Dynamics 365:** sellers who never configure availability count as always available and silently become the fallback.
 
 ## Reference
 
