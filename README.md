@@ -10,7 +10,7 @@ Every skill produces a **decision or an artifact** you can ship: a scorecard, a 
 
 ## Related Collections
 
-Other skills repositories I built for my colleague at Nativa Labs:
+Other skills repositories I built for my colleagues at Nativa Labs:
 
 - [`advertising-skills`](https://github.com/mbfinotti/advertising-skills): Ad platform mastery: _for performance marketers, paid media managers, growth leads_
 - [`partnerships-skills`](https://github.com/mbfinotti/partnerships-skills): Partner ecosystem operations: _for partner managers, BD leads, ecosystem heads_
@@ -26,7 +26,12 @@ Install every skill in this repo, not just one. Skills here are atomic by design
 npx skills add mbfinotti/revops-skills
 ```
 
-**Claude.ai**: add as a plugin marketplace: open **Settings -> Capabilities -> Plugins**, click **Add -> Add marketplace -> Add from a repository**, enter `mbfinotti/revops-skills`, then **Sync**.
+**Claude.ai**:
+
+1. add as a plugin marketplace: open **Settings -> Capabilities -> Plugins**
+2. click **Add -> Add marketplace -> Add from a repository**
+3. enter `mbfinotti/revops-skills`
+4. then **Sync**
 
 **Claude Code**: install the plugin:
 

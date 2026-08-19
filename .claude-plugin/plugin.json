@@ -18,8 +18,14 @@
         "lead-scoring",
         "forecasting",
         "revenue-operations",
-        "ai-agent-skills",
-        "agentic",
-        "skills"
+        "sales-automation",
+        "gtm",
+        "agent-skills",
+        "claude-code",
+        "claude-skills",
+        "codex",
+        "cursor",
+        "gemini-cli-extension",
+        "skills-sh"
     ]
 }
