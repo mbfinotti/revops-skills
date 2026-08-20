@@ -75,7 +75,7 @@ Ask these questions one at a time. Wait for each answer before asking the next. 
 8. "Include vendor-run sources (tool-company blogs, research reports)?" - (a) yes, clearly flagged, (b) no, independent voices only.
 9. "Is your revenue stack anchored on one dominant CRM platform with its own admin community and certification track - and should those platform-ecosystem sources be included?" - (a) yes, include them, (b) no.
 
-Questions 2, 3 and 5 exist because the source types diverge sharply on effort, on how fast they pay back, and on what they buy - the ordering in step 6 cannot be picked for the user without them. Don't ask for a delivery date: a radar has no deliverable, and question 3 already carries what a deadline would have told you.
+Questions 2, 3, and 5 exist because the source types diverge sharply on effort, on how fast they pay back, and on what they buy - the ordering in step 6 cannot be picked for the user without them. Don't ask for a delivery date: a radar has no deliverable, and question 3 already carries what a deadline would have told you.
 
 ## B2B and B2C scope
 
