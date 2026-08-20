@@ -64,7 +64,7 @@ Questions:
 
 The compact map: full detection fingerprints, second signals, and fixes live in [references/root-cause-fingerprints.md](references/root-cause-fingerprints.md), in this same order.
 
-The value axis cannot be pre-ranked here and this skill does not pretend to: which cause is worth the most dollars is the output of the attribution table, and it differs every engagement. What is stable is the fix - what it costs to ship and how long before a forecast reflects it - so the register is ordered by that, and the diagnosis then re-ranks it against the dollars it actually found (see Fix leverage).
+The value axis cannot be pre-ranked here and this skill does not pretend to: which cause is worth the most dollars is the output of the attribution table, and it differs with every engagement. What is stable is the fix - what it costs to ship and how long before a forecast reflects it - so the register is ordered by that, and the diagnosis then re-ranks it against the dollars it actually found (see Fix leverage).
 
 - fix effort (most first): `comp-driven bias > rep sandbagging > stage inflation == missing evidence > late-created deals > manager override == wrong category > stale dates == zombies`
 - time-to-effect (slowest first): `comp-driven bias > rep sandbagging > manager override > late-created deals > stage inflation == missing evidence > stale dates == wrong category > zombies`
