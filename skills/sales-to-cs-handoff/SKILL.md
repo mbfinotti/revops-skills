@@ -118,7 +118,7 @@ Re-rank against those answers before proposing anything.
 
    The visible transfer is what the kickoff buys, because, as Murphy puts it, "Sales STILL holds the keys to the relationship" until the customer knows who owns them now.
 
-7. Assign accountability: a named owner for every step, and - wherever volume leaves room for per-deal review - CS explicitly accepts or rejects each handoff against the gate. Above SMB volume the sampling audit replaces this step entirely.
+7. Assign accountability: a named owner for every step, and - wherever volume leaves room for per-deal review - CS explicitly accepts or rejects each handoff against the gate. Above SMB volume, the sampling audit replaces this step entirely.
    - Rejects bounce back to the rep with a reason code and a re-submission clock.
    - They never sit in limbo with the customer waiting.
 8. Wire escalation.
