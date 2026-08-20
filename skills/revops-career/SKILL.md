@@ -18,7 +18,7 @@ Two facts shape everything here:
 
 Two habits separate a plan that holds from one that collapses under questioning:
 
-- Name levels by scope, decision rights and headcount rather than by title, because VP of Revenue Operations titles grew 300% in 18 months (RevenueTools) and a Director seat at a 30-person company is a hands-on IC role.
+- Name levels by scope, decision rights, and headcount rather than by title, because VP of Revenue Operations titles grew 300% in 18 months (RevenueTools) and a Director seat at a 30-person company is a hands-on IC role.
 - Put every impact claim through baseline, then the intervention the candidate personally owned, then the measured delta with its window. Claiming revenue outright is the field's classic credibility trap, since nearly 90% of B2B SaaS still runs last-touch or basic multi-touch attribution (State of B2B Marketing Attribution 2025, via Unify) - the model rarely supports the claim, and the interviewer knows it.
 
 Boundaries, stated because readers expect them here:
