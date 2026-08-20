@@ -39,7 +39,7 @@ Ask before designing. One question per message; offer multiple-choice answers wh
 - Who is on the interview panel, and how many rounds can you realistically run?
 - By when must this be solved? (a) a dated event forces it inside a quarter - board meeting, quota reset, migration, (b) this fiscal year, (c) open. A hard date inside a quarter deletes the senior in-house options: the search alone outlasts the deadline.
 - Do you want a one-off fix or a compounding capability? A one-off promotes fractional and agency; a compounding mandate promotes the in-house hire, and is the only answer that justifies its first two quarters.
-- What is your effort ceiling - manager hours per week, panelists available, is headcount actually approved, and could you unwind this in a month if it went wrong? A freeze or unapproved headcount deletes the requisition options outright; low tolerance for irreversibility promotes the contract ones.
+- What is your effort ceiling - how many manager hours per week you have, whether panelists are available, whether headcount is actually approved, and whether you could unwind this in a month if it went wrong? A freeze or unapproved headcount deletes the requisition options outright; low tolerance for irreversibility promotes the contract ones.
 
 ## Workflow
 
