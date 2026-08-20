@@ -122,7 +122,7 @@ The user's question at that moment is never "which of these exists" but "which o
 7. **Reporting** - `revenue-reporting`. Buys a number an exec or a board acts on, and the sign-off that it is real. Costs the definition-locking negotiation across finance and sales, and buys little while the metrics feeding it are the ones the classes above have not fixed yet.
 8. **Macro design** - `revenue-funnel`, `revenue-data-governance-strategy`, `revenue-kpi-framework`. Buys the model every class above operates inside: the stage set the plan is built on, the system that wins per object class, the metric tree each org level owns. Costs the most in the collection - cross-functional negotiation with finance, marketing and CS, a decision the whole company then reads from, and a payoff arriving a planning cycle after the work. Nothing here is reversible by RevOps alone.
 
-`revops-hiring`, `revops-career` and `revops-radar` sit outside this ladder rather than at the bottom of it. They answer a people or a stay-current question, not a revenue-system question; when that _is_ the session goal they are rung 1 by definition, and otherwise they do not belong on the short-list at all.
+`revops-hiring`, `revops-career`, and `revops-radar` sit outside this ladder rather than at the bottom of it. They answer a people or a stay-current question, not a revenue-system question; when that _is_ the session goal they are rung 1 by definition, and otherwise they do not belong on the short-list at all.
 
 The axes disagree, which is exactly where the choice is hard:
 
