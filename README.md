@@ -64,9 +64,14 @@ Update with `gemini extensions update revops-skills`.
 
 ## Skills
 
-This collection covers the full RevOps surface. Start here:
+This collection covers the full RevOps surface.
 
-- [`revops-kickoff`](./revops-kickoff): Routes any RevOps task to the right skill and bootstraps a versioned project context so later sessions start warm.
+### Start here
+
+[`revops-kickoff`](./revops-kickoff): Routes any RevOps task to the right skill and bootstraps a versioned project context so later sessions start warm.
+
+### Meta
+
 - [`revops-career`](./revops-career): Builds a RevOps career plan: ladder placement by scope, a competency gap roadmap, an evidence ledger, and a compensation ask.
 - [`revops-hiring`](./revops-hiring): Produces a complete RevOps hiring packet: outcome scorecard, interview stage map, work-sample rubric, and a 30-60-90 ramp plan.
 - [`revops-radar`](./revops-radar): Assembles a time-budgeted watch list of RevOps podcasts, newsletters, communities, events, and people, each verified still active.
