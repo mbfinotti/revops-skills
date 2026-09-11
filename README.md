@@ -36,8 +36,8 @@ npx skills add mbfinotti/revops-skills
 **Claude Code**: install the plugin:
 
 ```bash
-/plugin marketplace add mbfinotti/mbfinotti
-/plugin install revops-skills@mbfinotti
+/plugin marketplace add mbfinotti/revops-skills
+/plugin install revops-skills@revops-skills
 ```
 
 **Codex (OpenAI)**: install via the Codex CLI:

@@ -1,0 +1,41 @@
+{
+    "name": "revops-skills",
+    "owner": {
+        "name": "Maya-Beth Finotti",
+        "email": "mbfinotti@gmail.com"
+    },
+    "plugins": [
+        {
+            "name": "revops-skills",
+            "source": "./",
+            "description": "Skills for revenue operations — CRM data governance, pipeline and funnel management, lead routing and scoring, deal desk, forecasting, KPIs, and sales-to-CS handoff.",
+            "version": "0.1.0",
+            "author": {
+                "name": "Maya-Beth Finotti",
+                "email": "mbfinotti@gmail.com"
+            },
+            "homepage": "https://github.com/mbfinotti/revops-skills",
+            "repository": "https://github.com/mbfinotti/revops-skills",
+            "license": "MIT",
+            "keywords": [
+                "revops",
+                "sales-ops",
+                "crm",
+                "pipeline",
+                "lead-routing",
+                "lead-scoring",
+                "forecasting",
+                "revenue-operations",
+                "sales-automation",
+                "gtm",
+                "agent-skills",
+                "claude-code",
+                "claude-skills",
+                "codex",
+                "cursor",
+                "gemini-cli-extension",
+                "skills-sh"
+            ]
+        }
+    ]
+}
