@@ -78,44 +78,44 @@ This collection covers the full RevOps surface.
 
 ### Funnel & pipeline
 
-| Skill | Description |
-| --- | --- |
-| [`revenue-funnel`](./skills/revenue-funnel) | Designs a revenue funnel model from scratch: stage set, unit of analysis, conversion assumptions, and ownership handoffs across marketing, sales, and CS. |
-| [`pipeline-stage-definition-audit`](./skills/pipeline-stage-definition-audit) | Audits existing stage definitions against buyer-verifiable milestones and flags every exit criterion built on rep activity instead. |
-| [`sales-pipeline-hygiene`](./skills/sales-pipeline-hygiene) | Runs a checklist audit over a live pipeline snapshot and returns an exception list, a disposition per deal, and a pass threshold. |
-| [`sales-forecast-diagnostic`](./skills/sales-forecast-diagnostic) | Diagnoses why a forecast misses - separating data-quality problems from rep behavior from genuine demand - and recommends targeted fixes. |
-| [`deal-desk-approval`](./skills/deal-desk-approval) | Designs the deal desk approval chain: tiered discount matrix, delegation of authority, margin floors, SLA clocks, and precedent control. |
+| Skill                                                                         | Description                                                                                                                                               |
+| ----------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`revenue-funnel`](./skills/revenue-funnel)                                   | Designs a revenue funnel model from scratch: stage set, unit of analysis, conversion assumptions, and ownership handoffs across marketing, sales, and CS. |
+| [`pipeline-stage-definition-audit`](./skills/pipeline-stage-definition-audit) | Audits existing stage definitions against buyer-verifiable milestones and flags every exit criterion built on rep activity instead.                       |
+| [`sales-pipeline-hygiene`](./skills/sales-pipeline-hygiene)                   | Runs a checklist audit over a live pipeline snapshot and returns an exception list, a disposition per deal, and a pass threshold.                         |
+| [`sales-forecast-diagnostic`](./skills/sales-forecast-diagnostic)             | Diagnoses why a forecast misses - separating data-quality problems from rep behavior from genuine demand - and recommends targeted fixes.                 |
+| [`deal-desk-approval`](./skills/deal-desk-approval)                           | Designs the deal desk approval chain: tiered discount matrix, delegation of authority, margin floors, SLA clocks, and precedent control.                  |
 
 ### Lead management
 
-| Skill | Description |
-| --- | --- |
-| [`lead-scoring`](./skills/lead-scoring) | Designs, backtests, and recalibrates a lead scoring model: fit and engagement weighting, decay, exclusions, and MQL or PQL thresholds. |
+| Skill                                   | Description                                                                                                                                               |
+| --------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`lead-scoring`](./skills/lead-scoring) | Designs, backtests, and recalibrates a lead scoring model: fit and engagement weighting, decay, exclusions, and MQL or PQL thresholds.                    |
 | [`lead-routing`](./skills/lead-routing) | Designs inbound lead assignment logic: rule precedence, lead-to-account matching, territories, round-robin variants, fallback queues, and SLA escalation. |
 
 ### Customer lifecycle
 
-| Skill | Description |
-| --- | --- |
-| [`sales-to-cs-handoff`](./skills/sales-to-cs-handoff) | Specifies the post-close handoff: gated closed-won trigger, required data packet, timing SLAs, kickoff pattern, and a CS acceptance step. |
-| [`customer-health-score`](./skills/customer-health-score) | Builds a composite health score - weighted, normalized, decayed, banded - backtested against real churn outcomes and governed on a recalibration cadence. |
-| [`customer-churn-signals`](./skills/customer-churn-signals) | Ranks leading churn indicators into a signal register, each with threshold, window, lift over base rate, lead time, and coverage. |
+| Skill                                                       | Description                                                                                                                                               |
+| ----------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`sales-to-cs-handoff`](./skills/sales-to-cs-handoff)       | Specifies the post-close handoff: gated closed-won trigger, required data packet, timing SLAs, kickoff pattern, and a CS acceptance step.                 |
+| [`customer-health-score`](./skills/customer-health-score)   | Builds a composite health score - weighted, normalized, decayed, banded - backtested against real churn outcomes and governed on a recalibration cadence. |
+| [`customer-churn-signals`](./skills/customer-churn-signals) | Ranks leading churn indicators into a signal register, each with threshold, window, lift over base rate, lead time, and coverage.                         |
 
 ### Measurement & reporting
 
-| Skill | Description |
-| --- | --- |
-| [`revenue-kpi-framework`](./skills/revenue-kpi-framework) | Designs the org-wide KPI tree: reconciling metric math from board to IC, branch ownership, and guardrail counter-metrics per owned number. |
-| [`revenue-reporting`](./skills/revenue-reporting) | Defines the metric spine and narrative structure of a board or exec revenue report, including how to present a miss without surprising anyone. |
-| [`revenue-leakage`](./skills/revenue-leakage) | Traces where deals silently exit one funnel and sizes the loss in recoverable dollars, separating real leaks from healthy disqualification. |
+| Skill                                                     | Description                                                                                                                                    |
+| --------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`revenue-kpi-framework`](./skills/revenue-kpi-framework) | Designs the org-wide KPI tree: reconciling metric math from board to IC, branch ownership, and guardrail counter-metrics per owned number.     |
+| [`revenue-reporting`](./skills/revenue-reporting)         | Defines the metric spine and narrative structure of a board or exec revenue report, including how to present a miss without surprising anyone. |
+| [`revenue-leakage`](./skills/revenue-leakage)             | Traces where deals silently exit one funnel and sizes the loss in recoverable dollars, separating real leaks from healthy disqualification.    |
 
 ### Data & systems
 
-| Skill | Description |
-| --- | --- |
-| [`crm-data-governance`](./skills/crm-data-governance) | Produces CRM field-level governance: field dictionary, per-field ownership, write-precedence rules, freshness SLAs, and an enforcement plan. |
+| Skill                                                                           | Description                                                                                                                                     |
+| ------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| [`crm-data-governance`](./skills/crm-data-governance)                           | Produces CRM field-level governance: field dictionary, per-field ownership, write-precedence rules, freshness SLAs, and an enforcement plan.    |
 | [`revenue-data-governance-strategy`](./skills/revenue-data-governance-strategy) | Sets org-wide source-of-truth policy per object class, an identity-resolution spine, a data-contract register, and a dispute arbitration model. |
-| [`revops-stack-rationalization`](./skills/revops-stack-rationalization) | Reviews the full GTM tool stack and decides tool by tool what to keep, consolidate, replace, or cut, on a renewal-triggered calendar. |
+| [`revops-stack-rationalization`](./skills/revops-stack-rationalization)         | Reviews the full GTM tool stack and decides tool by tool what to keep, consolidate, replace, or cut, on a renewal-triggered calendar.           |
 
 ## License
 

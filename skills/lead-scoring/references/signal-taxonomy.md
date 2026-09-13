@@ -6,12 +6,12 @@ Fit and engagement stay separate scores end to end. Blending them into one numbe
 
 Explicit data from forms and enrichment. Stable, so they never decay. Their usefulness is bounded by enrichment coverage, not by cleverness of the point values.
 
-| Bucket             | Signals                                                               | Notes                                                                                                              |
-| ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
-| Firmographic (B2B) | Industry, employee count, revenue band, geography, funding stage      | Strongest single gate at high ACV                                                                                  |
-| Demographic        | Job title, seniority, department, buying-committee role               | Normalize titles before scoring; "Head of" != VP everywhere                                                        |
+| Bucket             | Signals                                                                         | Notes                                                                                                              |
+| ------------------ | ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ |
+| Firmographic (B2B) | Industry, employee count, revenue band, geography, funding stage                | Strongest single gate at high ACV                                                                                  |
+| Demographic        | Job title, seniority, department, buying-committee role                         | Normalize titles before scoring; "Head of" != VP everywhere                                                        |
 | Technographic      | Uses complementary tool; uses a competitor; uses the tool this product replaces | Competitor usage is positive fit (they understand the category) but often an exclusion for outreach - decide which |
-| B2C fit            | Age band, location, purchase history, account tenure                  | Same axis, consumer-grade inputs; identical mechanics                                                              |
+| B2C fit            | Age band, location, purchase history, account tenure                            | Same axis, consumer-grade inputs; identical mechanics                                                              |
 
 ## Engagement signals - are they about to buy
 

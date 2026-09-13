@@ -223,20 +223,24 @@ Organize predicted questions three ways - by behavioral category, by RevOps func
 ### Questions to ask back
 
 Hiring manager:
+
 - What is the mandate in writing, and which functions' processes can I change without asking permission?
 - Which single metric is mine to own and be measured on?
 - What does success look like in twelve months, and who decides?
 - What is the travel expectation, and who covers it when it collides with life?
 
 Executive:
+
 - Who does this role report to, and what is that person accountable for?
 - What is the budget and headcount plan?
 
 Team:
+
 - What happened to the last person in this seat?
 - What does the team struggle with most?
 
 Recruiter:
+
 - How many people and what budget does the role carry?
 - What does the interview loop look like?
 

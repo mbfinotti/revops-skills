@@ -26,14 +26,14 @@ If the model does not beat no-scoring at predicting opportunity conversion, it i
 
 Quote these with their flags; several widely-cited numbers are folklore.
 
-| Claim                                                          | Number                     | Reliability                                                                                                                                                                       |
-| -------------------------------------------------------------- | -------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| "Respond in 5 minutes = 21x/100x more likely to qualify"       | 2007                       | Single vendor phone-outreach study from 2007, not a randomized trial; treat as an aggressive target for hand-raisers, not a universal law                                         |
-| "Fewer than 1% of MQLs convert to deals"                       | <1%                        | Genuine named-analyst Forrester blog, but rests on an uncited "our research"; rhetorical ammunition, not a planning number                                                        |
-| PQL conversion advantage                                       | 5x                         | Real published figure (OpenView 2020 survey, 150+ SaaS companies); the 5-10x variants in circulation are inflated restatements                                                    |
-| Lead scoring case study: leads to sales -52%, conversions +79% | 2012                       | Named published source (MarketingSherpa/Bersin) but quarter-over-quarter figures, routinely misquoted with qualifiers stripped                                                    |
+| Claim                                                          | Number                     | Reliability                                                                                                                                                                  |
+| -------------------------------------------------------------- | -------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| "Respond in 5 minutes = 21x/100x more likely to qualify"       | 2007                       | Single vendor phone-outreach study from 2007, not a randomized trial; treat as an aggressive target for hand-raisers, not a universal law                                    |
+| "Fewer than 1% of MQLs convert to deals"                       | <1%                        | Genuine named-analyst Forrester blog, but rests on an uncited "our research"; rhetorical ammunition, not a planning number                                                   |
+| PQL conversion advantage                                       | 5x                         | Real published figure (OpenView 2020 survey, 150+ SaaS companies); the 5-10x variants in circulation are inflated restatements                                               |
+| Lead scoring case study: leads to sales -52%, conversions +79% | 2012                       | Named published source (MarketingSherpa/Bersin) but quarter-over-quarter figures, routinely misquoted with qualifiers stripped                                               |
 | MQL-to-SQL "benchmarks"                                        | 13%-45%                    | The spread is definitional variance, not performance variance - two companies can both be right at 13% and 42%. Compare scored vs unscored cohorts inside one funnel instead |
-| Data floor for predictive scoring                              | ~500-1,000 closed outcomes | Convergent practitioner guidance plus vendor-documented minimums; reliable as an order of magnitude                                                                               |
+| Data floor for predictive scoring                              | ~500-1,000 closed outcomes | Convergent practitioner guidance plus vendor-documented minimums; reliable as an order of magnitude                                                                          |
 
 ## Recalibration cadence
 
