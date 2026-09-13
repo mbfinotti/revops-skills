@@ -84,15 +84,15 @@ Group exceptions by what triggers them [practitioner - Umbrex playbook synthesis
 
 ## Routing summary
 
-| Exception type              | Owner                                   | Non-delegable escalation                   |
-| --------------------------- | --------------------------------------- | ------------------------------------------ |
-| Payment terms / billing     | Finance                                 | Multi-year deferrals, pay-when-paid        |
-| Ramps / renewal constructs  | Finance/Pricing                         | Renewal uplift below corridor              |
-| Custom SLA / credits        | Security/Ops                            | Uncapped credits, penalties beyond credits |
-| Legal redlines              | Legal (analyst inside fallback library) | Novel terms, regulated asks                |
-| Security/privacy            | Security, Privacy                       | New operational obligations -> Legal       |
-| MFN / price holds           | Legal + commercial lead                 | Always (prohibited-class)                  |
-| Roadmap commitments         | Product + Delivery                      | Always (prohibited by default)             |
-| Termination for convenience | Legal + Finance                         | Penalty-free walk-away rights              |
-| Free periods / POCs         | Legal + Finance + Product               | Unbounded duration, unowned IP             |
+| Exception type               | Owner                                   | Non-delegable escalation                                          |
+| ---------------------------- | --------------------------------------- | ----------------------------------------------------------------- |
+| Payment terms / billing      | Finance                                 | Multi-year deferrals, pay-when-paid                               |
+| Ramps / renewal constructs   | Finance/Pricing                         | Renewal uplift below corridor                                     |
+| Custom SLA / credits         | Security/Ops                            | Uncapped credits, penalties beyond credits                        |
+| Legal redlines               | Legal (analyst inside fallback library) | Novel terms, regulated asks                                       |
+| Security/privacy             | Security, Privacy                       | New operational obligations -> Legal                              |
+| MFN / price holds            | Legal + commercial lead                 | Always (prohibited-class)                                         |
+| Roadmap commitments          | Product + Delivery                      | Always (prohibited by default)                                    |
+| Termination for convenience  | Legal + Finance                         | Penalty-free walk-away rights                                     |
+| Free periods / POCs          | Legal + Finance + Product               | Unbounded duration, unowned IP                                    |
 | Reseller/channel/MSP pricing | Partner management (routing) + Finance  | Pay-when-paid clauses; always routes off the standard three lanes |
