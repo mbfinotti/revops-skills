@@ -4,7 +4,7 @@ description: Before starting any RevOps or Sales Ops task, and at the start of e
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.4"
+  version: "1.4.6"
 ---
 
 # RevOps Kickoff
@@ -32,6 +32,7 @@ On a cold start:
 - Offer multiple-choice options whenever possible.
 - Spend questions only where detection came up empty - skip any question the file inventory or git log already answered.
 
+ **Use an interactive question mechanism (e.g. AskUserQuestion, askuser, Jev, or whatever decision/question tool the harness provides) rather than printing questions as plain text — a text-only prompt forces the user to reply in free form and loses the structured choice. Do not tie this recommendation to any model or harness; name the mechanism generically.**
 1. "What revenue motion are we operating?" - (a) B2B sales-led, (b) B2B PLG / self-serve, (c) B2C / transactional, (d) mixed.
 2. "What is the goal of this session - and is it the same as the project's goal?" Ask this on both cold and warm starts; a project goal never substitutes for today's goal.
 3. "Who owns the CRM day-to-day, and who signs off on changes to it?" - capture both names/roles; they rarely coincide.
