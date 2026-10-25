@@ -4,7 +4,7 @@ description: Design a company's revenue funnel model from scratch, at the macro 
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.7"
+  version: "1.4.8"
 ---
 
 # Revenue Funnel Design
@@ -145,7 +145,7 @@ Each needs an owner on both sides, explicit handoff criteria, and a bilateral SL
 - efficiency: `paper mapping > standardized definitions > bilateral SLA > system-enforced timers`
 
 1. **Paper mapping** - both sides of each handoff in one room, mapping the funnel first touch to expansion, marking every handoff's owner, criteria, and where it breaks. An hour or two; practitioners report the biggest alignment gaps surface in the first 30 minutes. Always do this first, inside the design engagement itself.
-2. **Standardized definitions** - one written definition per handoff trigger (what counts as qualified, what triggers the handoff), behavior-based rather than a single point-score threshold. Days of drafting and sign-off.
+2. **Standardized definitions** - one written definition per handoff trigger (what counts as qualified, what triggers the handoff), behavior-based rather than a single point-score threshold. Hours of drafting, then days of sign-off.
 3. **Bilateral SLA** - commitments, timers, and consequences on both sides, targets set near current baseline. A one-sided SLA makes marketing the defendant and sales the judge, and poisons the alignment it was meant to create. Weeks of negotiation; needs a cross-functional sponsor.
 4. **System-enforced timers** - acceptance clocks, auto-reversion, escalation, and reassignment built into the CRM/automation layer, with compliance reviewed in a standing joint cadence. Admin build plus retraining.
 

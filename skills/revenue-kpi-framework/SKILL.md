@@ -4,7 +4,7 @@ description: Design the org-wide revenue KPI framework at the macro level - whic
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.3.1"
+  version: "1.3.2"
 ---
 
 # Revenue KPI Framework
@@ -69,10 +69,10 @@ The four rungs below are listed by increasing depth; the efficiency line is what
 - effort: `encoded framework > full tree > driver tree > metric shortlist`
 - efficiency: `driver tree > metric shortlist > full tree > encoded framework`
 
-1. **Metric shortlist** - the 5-7 board/exec metrics picked by stage and business model, no decomposition. An afternoon. Enough for a one-off board ask; gives teams nothing to pull.
+1. **Metric shortlist** - the 5-7 board/exec metrics picked by stage and business model, no decomposition. An hour or two. Enough for a one-off board ask; gives teams nothing to pull.
 2. **Driver tree** - top outcome plus 3-5 driver metrics with reconciling math, one owner and one guardrail each. Days, including the ownership negotiations.
 3. **Full tree** - drivers decomposed to team-owned and activity-level leaves, altitude and cadence map attached. Weeks of cross-functional workshops.
-4. **Encoded framework** - the full tree's definitions written into a metric dictionary or semantic layer, reviews wired into standing WBR/MBR/QBR cadences. A quarter to establish, then a standing job.
+4. **Encoded framework** - the full tree's definitions written into a metric dictionary or semantic layer, reviews wired into standing WBR/MBR/QBR cadences. Several weeks to establish, then a standing job.
 
 - Default rung: the driver tree.
 - Move up to the full tree when:

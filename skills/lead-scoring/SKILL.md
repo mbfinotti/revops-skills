@@ -4,7 +4,7 @@ description: Design, validate, and recalibrate a lead scoring model - fit and en
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.2.2"
+  version: "1.2.3"
 ---
 
 # Lead Scoring
@@ -129,9 +129,9 @@ When the user arrives with a running model ("our scores are wrong", "sales ignor
 | MQL count celebrated while pipeline is flat    | Goodhart dynamic - MQL volume became the target, so the bar drifts down                            | Report MQL-to-opportunity conversion and pipeline contribution upward, never raw MQL volume | Near-zero in hours, but spends political capital with whoever set the MQL target       |
 | Stale contacts look as hot as active ones      | No decay - points accumulate forever                                                               | Add decay to engagement only (mechanisms ranked in signal-taxonomy)                         | An hour of config, plus one rescore of the database                                    |
 | Most of the database can never reach threshold | Enrichment ceiling - fit fields empty for most records                                             | Measure coverage, then apply the ranked menu in Workflow step 2 - score unknowns 0 first    | Near-zero for the default rung; a quarter and a standing job if enrichment is promoted |
-| Closed-won deals that never hit MQL            | False negatives - model ignores real buying paths (referrals, events, product usage)               | Add the missing paths; track false-negative rate as a standing KPI                          | A week - find the path in won records, add signals, re-backtest                        |
-| MQL volume up, MQL-to-opportunity down         | Score inflation - generous weights or vanity signals                                               | Re-derive weights from won/lost data; add category caps; raise threshold                    | A week of analyst work on won/lost cohorts, plus sales re-sign-off on the new bar      |
-| High scores stopped predicting wins            | Stale model - ICP, product, or content shifted since calibration                                   | Recalibrate on latest multi-quarter cohort; install drift triggers                          | A quarter to rebuild, then a standing job to keep                                      |
+| Closed-won deals that never hit MQL            | False negatives - model ignores real buying paths (referrals, events, product usage)               | Add the missing paths; track false-negative rate as a standing KPI                          | A day or two - find the path in won records, add signals, re-backtest                  |
+| MQL volume up, MQL-to-opportunity down         | Score inflation - generous weights or vanity signals                                               | Re-derive weights from won/lost data; add category caps; raise threshold                    | A day or two of analyst work on won/lost cohorts, plus sales re-sign-off               |
+| High scores stopped predicting wins            | Stale model - ICP, product, or content shifted since calibration                                   | Recalibrate on latest multi-quarter cohort; install drift triggers                          | A few weeks to rebuild, then a standing job to keep                                    |
 
 What this order starves: the full recalibration - first on value, first on effort, so a ratio never schedules it. Promote it above everything when ICP, pricing, or product changed since the last calibration, or when two rows above have already been fixed and conversion still does not track the score.
 

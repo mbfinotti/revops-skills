@@ -76,7 +76,7 @@ card approaching expiry with no update                    : billing
   lift 2.8x | lead 30d | coverage 22% | effort near-zero | WATCH (billing climbs on a
   consumer book - pre-emptive here - but 22% misses the coverage floor)
 core-feature breadth drops to 1 of 4 within a month       : adoption
-  lift 2.4x | lead 26d | coverage 31% | effort a week | SHIP
+  lift 2.4x | lead 26d | coverage 31% | effort a day | SHIP
 cancellation-page visit                                   : behavior
   lift 9x   | lead 2d  | coverage 44% | effort near-zero | CONFIRMATORY
 

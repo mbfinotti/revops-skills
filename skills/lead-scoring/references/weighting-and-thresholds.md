@@ -42,7 +42,7 @@ Three methods, ranked by value per unit of effort - effort being analyst hours p
 - value (a threshold that still holds three months after launch): conversion band > sales capacity > percentile sanity check
 - effort: conversion band > sales capacity > percentile sanity check
 
-Effort in magnitudes: the percentile check is minutes against the current database; the capacity math is an hour of arithmetic available before a single lead is scored; the conversion band needs ~60 days of live scored history or a full backtest first, then a week of analysis.
+Effort in magnitudes: the percentile check is minutes against the current database; the capacity math is an hour of arithmetic available before a single lead is scored; the conversion band needs ~60 days of live scored history or a full backtest first, then a day or two of analysis.
 
 1. **Sales capacity first.** Threshold where projected weekly MQL/PQL volume roughly matches what reps can actually work (reps x leads-per-rep-per-week). This is the honest constraint most guides underweight - a statistically perfect threshold that produces 3x workable volume just recreates the triage problem downstream. It leads on efficiency because it needs no scored history at all and still buys the outcome that matters most on day one: a queue reps finish.
 2. **Conversion band.** After ~60 days of scored history (or on backtest data), chart sales acceptance and opportunity conversion per score band; set the threshold where the curve breaks upward. Highest value of the three - it is the only method that reads actual conversion instead of proxying it - and highest effort, since it cannot run until the data exists.
@@ -75,7 +75,7 @@ Ranked by value per unit of effort, effort being the data volume required up fro
 - value (ranking accuracy on the leads sales actually works): pure predictive > hybrid > rules-based - but only above the data floor below; under it, predictive's value is unmeasurable and frequently negative
 - effort: pure predictive > hybrid > rules-based
 
-Effort in magnitudes: a rules model is a week of design plus an hour per tuning pass; the hybrid adds the vendor layer on top of rules that already work; a pure predictive build is a quarter before it scores anything - data floor, onboarding, validation - and then a standing job of retraining, drift monitoring, and explaining scores to reps.
+Effort in magnitudes: a rules model is two or three days of design plus an hour per tuning pass; the hybrid adds the vendor layer on top of rules that already work; a pure predictive build is a quarter before it scores anything - data floor, onboarding, validation - and then a standing job of retraining, drift monitoring, and explaining scores to reps.
 
 Default to rules-based, and promote the hybrid once the data floor is genuinely cleared. Delete the predictive rungs entirely below that floor rather than ranking them last. A model trained on 80 outcomes is not a slower option, it is a wrong one, and a rung left at the bottom of the list comes back as a vendor evaluation.
 

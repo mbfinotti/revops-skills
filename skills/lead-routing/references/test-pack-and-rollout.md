@@ -59,11 +59,11 @@ Keep the results alongside the change log entry.
 2. **Canary, or shadow mode - a ranked choice, not an either/or.**
    - efficiency: canary > shadow mode
    - value: shadow mode > canary
-   - effort: shadow mode (a week, plus a parallel compute path the CRM may not support) > canary (an hour, a scoping filter over one segment)
+   - effort: shadow mode (a day or two, plus a parallel compute path the CRM may not support) > canary (an hour, a scoping filter over one segment)
 
    Run the canary by default. Enable the new logic for one controlled segment (one region, one source, or one pool) and reconcile daily: count submissions at the source against records in the CRM, and confirm the difference is zero. Any unexplained loss triggers rollback rather than investigation-in-production.
 
-   Shadow mode computes the intended owner on live volume without writing it, then diffs intended against current behaviour record by record. It sees every disagreement instead of only the ones one segment happens to exercise - some will be the intended fix, some new defects, and only a record-level diff separates them. That extra coverage is what the week buys.
+   Shadow mode computes the intended owner on live volume without writing it, then diffs intended against current behaviour record by record. It sees every disagreement instead of only the ones one segment happens to exercise - some will be the intended fix, some new defects, and only a record-level diff separates them. That extra coverage is what the extra days buy.
 
    Shadow mode wins, despite the effort, on exactly two conditions:
 

@@ -4,7 +4,7 @@ description: Run a periodic, checklist-based hygiene audit over an active pipeli
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.2.4"
+  version: "1.2.5"
 ---
 
 # Pipeline Hygiene

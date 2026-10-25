@@ -54,7 +54,7 @@ The design goal is to move volume down this list, not to staff it evenly - the f
 
 **Complex lane** - two or three lever changes, or delivery dependencies needing confirmation, within risk appetite. About an hour of analyst work plus one cross-function confirmation; one to two business days.
 
-**Exception lane** - below-floor economics, prohibited terms, novel security obligations, or high-precedent structures. Several hours of package assembly against several approvers' calendars, and a week of elapsed time.
+**Exception lane** - below-floor economics, prohibited terms, novel security obligations, or high-precedent structures. An hour or two of package assembly against several approvers' calendars, and a week of elapsed time.
 
 Complex == fast on compliance cost by construction, not coincidence: anything on the accounting/legal routing table, in the prohibited class, or setting precedent is exception-lane by definition, so neither of the other lanes may ever carry that exposure.
 

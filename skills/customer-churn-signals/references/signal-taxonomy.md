@@ -80,7 +80,7 @@ Never ship raw volume alone - pair it with sentiment/severity, and define "silen
 
 Customer-initiated meetings booked, email response rate and latency, QBR attendance. Artefact warning: a CSM emailing an at-risk account makes measured "engagement" rise - count customer-initiated activity only, or the vendor's own save motion pollutes the signal. That filter is the whole hour, and skipping it is what turns this category into noise.
 
-### 5. Champion and executive-sponsor engagement/departure - effort: a week to stand up, then a standing job
+### 5. Champion and executive-sponsor engagement/departure - effort: a day or two to stand up, then a standing job
 
 B2B-only. Repeatedly cited as among the strongest single B2B signals; Lemkin puts non-renewal odds above 50% when the sponsoring executive departs.
 
@@ -91,7 +91,7 @@ Two distinct signals:
 
 Champion departure is commonly cited as preceding churn by 30-60 days - and typically discovered at the renewal call, not when it happens, so instrument the detection, not just the field. The standing job is keeping the recorded-champion field true; a stale field silently produces a signal that never fires.
 
-### 6. Product usage / telemetry - effort: near-zero if the product already emits per-account events, otherwise a quarter
+### 6. Product usage / telemetry - effort: near-zero if the product already emits per-account events, otherwise a month or more: a week or two to build, then weeks of event history before a trend against the account's own baseline can fire
 
 The most commonly cited earliest-detectable family, and the highest-value category on the list. Decline is usually gradual - daily use becomes weekly becomes biweekly - not a cliff, so define trends against the account's own baseline rather than absolute floors.
 
@@ -108,7 +108,7 @@ Failed payments, invoice disputes, late renewals, downgrade requests.
 - **B2B**: late-stage/confirmatory - by the time payment friction surfaces, the account is usually already evaluating alternatives, which is what drops a near-zero-effort category this far down.
 - **B2C**: payment failure is a proportionally larger churn driver and worth catching pre-emptively, so it climbs several rungs on a consumer book; it is still confirmatory of intent only when the customer lets it fail.
 
-### 9. Customer business context - effort: a week to stand up, then a standing job
+### 9. Customer business context - effort: a day or two to stand up, then a standing job
 
 Layoffs, budget freeze, leadership change, M&A at the customer. Externally sourced (news, job-change alerts, the champion saying so); low frequency but high severity, and often the only warning for accounts whose product usage looks fine. Promote it on an enterprise book where losing one account is material - low coverage stops mattering when each covered account is worth a quarter of the number.
 

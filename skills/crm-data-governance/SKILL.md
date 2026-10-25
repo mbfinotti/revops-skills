@@ -4,7 +4,7 @@ description: Design and operate CRM field-level governance - who owns each CRM f
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.3.1"
+  version: "1.3.2"
 ---
 
 # CRM Data Governance
