@@ -51,7 +51,7 @@ A good prompt looks like a real defect, not a project. Give a small, messy, synt
 Three artifacts to fabricate, ranked by signal per hour spent building them, best ratio first:
 
 - efficiency: messy CRM export > broken funnel report > forecast reconciliation
-- your effort to build: forecast reconciliation > broken funnel report > messy CRM export (a day making three views disagree coherently > a day of wrong-but-consistent math > an hour of dirty rows)
+- your effort to build: forecast reconciliation > broken funnel report > messy CRM export (a few hours making three views disagree coherently > a couple of hours of wrong-but-consistent math > under an hour of dirty rows)
 - competency reached: forecast reconciliation == broken funnel report > messy CRM export
 
 Ties: the two report artifacts are equal on reach because each lands exactly one competency the export cannot - forecast judgment and funnel-definition judgment - and neither reaches past its own.

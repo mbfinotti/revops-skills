@@ -4,7 +4,7 @@ description: Design the sales-to-CS handoff process after a deal closes - what d
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.3.6"
+  version: "1.3.7"
 ---
 
 # CS Handoff
@@ -62,11 +62,11 @@ Five things a handoff process can buy, ranked by retention bought per hour of cu
 
 | Rung                                                                                                      | What it costs                                                                                                      | What it buys                                                                                                          |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
-| **Wiring**: must-block field gate on structured CRM fields, plus an assignment rule with a fallback owner | A one-off configuration pass of days; near-zero per handoff after that                                             | Context exists at all and every handoff carries a name - kills both the repeat-yourself complaint and the archaeology |
+| **Wiring**: must-block field gate on structured CRM fields, plus an assignment rule with a fallback owner | A one-off configuration pass of a day or two; near-zero per handoff after that                                     | Context exists at all and every handoff carries a name - kills both the repeat-yourself complaint and the archaeology |
 | **Live customer kickoff** with a visible transfer of ownership                                            | About an hour of the receiver's time, plus scheduling against the customer's calendar; one attempt, not repeatable | The ghosting fix - the customer leaves the call knowing who owns them now                                             |
 | **Internal sync** before any customer contact                                                             | About an hour across two internal calendars                                                                        | Commitments and nuance surface before the customer tests them                                                         |
 | **Acceptance step** with reason codes                                                                     | Minutes of receiver time per deal, plus the political capital to let CS reject a rep's work                        | Proves the packet was read; reject codes compound into a better packet definition each quarter                        |
-| **Per-deal packet document** plus recordings review                                                       | Hours per handoff, split between rep and receiver                                                                  | Fidelity structured fields cannot carry - realized only where implementation spans teams                              |
+| **Per-deal packet document** plus recordings review                                                       | An hour or two per handoff, most of it the receiver reading and reviewing recordings                               | Fidelity structured fields cannot carry - realized only where implementation spans teams                              |
 
 The `==` on effort is real: kickoff and sync each cost about an hour of the receiver's time. What separates them is coordination and reversibility, not hours - the kickoff runs against the customer's calendar and gets one attempt, which is why efficiency ranks it above the sync where raw hours cannot.
 

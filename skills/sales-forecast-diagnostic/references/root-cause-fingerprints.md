@@ -74,7 +74,7 @@ Blocks run in the register order from SKILL.md - fix effort ascending, which is 
 - Second signal: large deals surfacing into commit only in the final days of the period, already fully evidenced; quarter-start commit consistently a fixed fraction of quarter-end actual.
 - Discriminator: one strong quarter is noise. Require the pattern across at least two consecutive periods for the same person before naming it - and check the comp plan first, because sandbagging is usually a rational response to cliffs, not a character flaw.
 - Fix: score rep calibration openly against their own history - per-rep forecast-vs-actual across the last 4+ periods, published to the team; adjust incentives that reward hiding upside; never punish accuracy misses in comp.
-- Fix effort: a week to build the scorecard, and 2+ periods of history before the cause can even be named. Naming an individual is the one verdict here with employment consequences, so it carries a review the other fixes do not. Anything touching the incentive itself is the comp-driven bias fix, at that fix's cost - do not price it as part of this one.
+- Fix effort: a day to build the scorecard, and 2+ periods of history before the cause can even be named. Naming an individual is the one verdict here with employment consequences, so it carries a review the other fixes do not. Anything touching the incentive itself is the comp-driven bias fix, at that fix's cost - do not price it as part of this one.
 
 ## Comp-driven bias
 

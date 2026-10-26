@@ -12,10 +12,10 @@ Value and effort rank these identically, so one line carries both axes. Effort i
 
 | Method                         | Effort                                                                       | What the effort buys                                                                       |
 | ------------------------------ | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
-| Backtest + lift (§1-2)         | a week to assemble the churned-account list once, then an hour per candidate | The shippable register: which signals precede churn and by how much                        |
+| Backtest + lift (§1-2)         | a day to assemble the churned-account list once, then an hour per candidate  | The shippable register: which signals precede churn and by how much                        |
 | Retention curves (§3)          | an hour, on the same pull                                                    | Where the curves diverge, which estimates lead time - the attribute lift alone cannot give |
 | WoE/IV (§4)                    | an hour per candidate, most of it binning judgment                           | A strength band that separates two candidates the lift numbers tie                         |
-| Logistic regression / Cox (§8) | a week to fit, then a standing job to refit as the book turns over           | Exposes a candidate that only looked strong because it co-moves with a stronger one        |
+| Logistic regression / Cox (§8) | a day or two to fit, then a standing job to refit as the book turns over     | Exposes a candidate that only looked strong because it co-moves with a stronger one        |
 
 Logistic regression `==` Cox because they consume the same labeled dataset, carry the same refit burden, and differ only in what they model - churn probability versus time-to-churn - not in how much churn either lets you catch earlier.
 
@@ -105,7 +105,7 @@ The triple is the value axis only. Complete the ratio with the effort of emittin
 
 Two signals with identical lift are not the same decision when one is a query against yesterday's login table and the other needs a product event stream that does not exist. Score both, then order candidates by value per unit of effort.
 
-Take the per-category effort estimates and the resulting default build order from the signal taxonomy reference rather than re-deriving them here; that file is where the candidate list is chosen, so the ordering lives beside the choice. Record the call in the register's `effort` line, so a later reader can see that a signal ranked below a weaker one because it cost a quarter of engineering time, not because it predicted worse.
+Take the per-category effort estimates and the resulting default build order from the signal taxonomy reference rather than re-deriving them here; that file is where the candidate list is chosen, so the ordering lives beside the choice. Record the call in the register's `effort` line, so a later reader can see that a signal ranked below a weaker one because it cost weeks of engineering time, not because it predicted worse.
 
 ## 7. Once any scoring model exists: precision/recall, not accuracy
 

@@ -35,7 +35,7 @@ Backtest: the same fingerprints run on the prior quarter flagged 9 of the 11 dea
 
 Impact order, straight from the table: stale dates $370K > stage inflation $260K > zombies $140K > sandbagging $120K.
 
-Leverage order, the same causes divided by their fix effort tier: stale dates ($370K, an hour) > zombies ($140K, an hour) > stage inflation ($260K, a week plus a cycle) > sandbagging ($120K, a week plus two periods of history).
+Leverage order, the same causes divided by their fix effort tier: stale dates ($370K, an hour) > zombies ($140K, an hour) > stage inflation ($260K, a week plus a cycle) > sandbagging ($120K, a day plus two periods of history).
 
 What moved and why:
 
@@ -51,7 +51,7 @@ Fixes shipped, in leverage order:
 | Reason-required close-date pushes         | Data     | RevOps           | An hour                             | Silent-push count           |
 | Zombie purge plus recurring hygiene audit | Data     | RevOps           | An hour, then a standing job        | Stale-deal count            |
 | Buyer-evidence gate on commit entry       | Behavior | Sales leadership | A week, then a standing inspection  | Commit conversion rate      |
-| Open rep-calibration scorecard            | Behavior | Sales leadership | A week, plus two periods of history | Rep commit beat/miss spread |
+| Open rep-calibration scorecard            | Behavior | Sales leadership | A day, plus two periods of history  | Rep commit beat/miss spread |
 
 ## Negative example (a wrong diagnosis, and why)
 

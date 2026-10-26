@@ -4,7 +4,7 @@ description: Run a macro, periodic review of the full RevOps/GTM tool stack agai
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.9"
+  version: "1.4.10"
 ---
 
 # RevOps Stack Rationalization
@@ -91,7 +91,7 @@ The working inventory is the union of four discovery channels - each one alone u
 Usage is a diagnostic input to the value conversation, never the cutoff itself.
 
 - Value as cut evidence: feature-depth telemetry > proxy signals (records written per user, API call volume, workflows terminating in the tool) > login counts.
-- Effort: login counts (near-zero) < proxy signals (hours per tool) < feature-depth telemetry (needs a management platform or per-vendor admin work).
+- Effort: login counts (near-zero) < proxy signals (about an hour per tool) < feature-depth telemetry (needs a management platform or per-vendor admin work).
 - Efficiency: proxy signals > login counts > feature-depth telemetry.
 - Default rung: screen with login counts, decide with proxy signals. The order starves feature-depth telemetry - the only tier that catches a nightly automated sync masquerading as adoption; promote it when a SaaS-management platform is already deployed, or whenever a high-spend verdict hangs on usage.
 - No tier justifies a cut alone: every usage-based flag still needs the per-tool business-value check from Ground Rules.

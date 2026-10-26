@@ -4,7 +4,7 @@ description: Assemble, define, validate, and rank leading indicators of customer
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.2.6"
+  version: "1.2.7"
 ---
 
 # Churn Signals

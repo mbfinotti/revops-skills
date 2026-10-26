@@ -4,7 +4,7 @@ description: Design the deal desk approval chain and exception-handling process 
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.3.8"
+  version: "1.3.9"
 ---
 
 # Deal Desk Approval

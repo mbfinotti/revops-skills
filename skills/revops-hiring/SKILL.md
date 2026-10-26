@@ -4,7 +4,7 @@ description: Build the complete hiring packet for a RevOps or Sales Ops role - a
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.7"
+  version: "1.4.8"
 ---
 
 # RevOps Hiring

@@ -36,8 +36,8 @@ Backtesting needs churned accounts to compare against; young or low-churn books 
 
 efficiency: rules-based proxy > statistically fitted score. Value runs the other way - the fitted score is the better model - which is exactly why the ratio, not the value, decides here.
 
-- **Rules-based proxy.** An hour to a week: onboarding-milestone completion, activation/adoption thresholds, recency tripwires (no qualifying activity in N days), champion-contact recency - all readable off data the product already emits, and legible enough that a CSM can argue with a named rule instead of distrusting a black box. Label every weight a hypothesis. Buys a working at-risk list now, and no predictive claim.
-- **Statistically fitted score.** A quarter of analyst time plus tens of churn events per segment, then a standing job to re-fit. Buys the better model: weights derived from what churned accounts actually did rather than from what someone expected.
+- **Rules-based proxy.** An hour to a day or two: onboarding-milestone completion, activation/adoption thresholds, recency tripwires (no qualifying activity in N days), champion-contact recency - all readable off data the product already emits, and legible enough that a CSM can argue with a named rule instead of distrusting a black box. Label every weight a hypothesis. Buys a working at-risk list now, and no predictive claim.
+- **Statistically fitted score.** A few weeks of analyst time plus tens of churn events per segment, then a standing job to re-fit. Buys the better model: weights derived from what churned accounts actually did rather than from what someone expected.
 - Promote fitting the moment tens of churn events exist per segment; until then resist tuning to individual anecdotes.
 - When the book has no churned-account history at all, drop the fitted option from the menu rather than parking it at the bottom, and say so plainly - a ruled-out option left sitting in the list reappears as scope at the next planning round.
 

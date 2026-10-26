@@ -4,7 +4,7 @@ description: Diagnose why an existing sales forecast is unreliable and recommend
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.3.4"
+  version: "1.3.5"
 ---
 
 # Forecast Diagnostic
@@ -66,7 +66,7 @@ The compact map: full detection fingerprints, second signals, and fixes live in 
 
 The value axis cannot be pre-ranked here and this skill does not pretend to: which cause is worth the most dollars is the output of the attribution table, and it differs with every engagement. What is stable is the fix - what it costs to ship and how long before a forecast reflects it - so the register is ordered by that, and the diagnosis then re-ranks it against the dollars it actually found (see Fix leverage).
 
-- fix effort (most first): `comp-driven bias > rep sandbagging > stage inflation == missing evidence > late-created deals > manager override == wrong category > stale dates == zombies`
+- fix effort (most first): `comp-driven bias > stage inflation == missing evidence > late-created deals > rep sandbagging > manager override == wrong category > stale dates == zombies`
 - time-to-effect (slowest first): `comp-driven bias > rep sandbagging > manager override > late-created deals > stage inflation == missing evidence > stale dates == wrong category > zombies`
 - compliance cost (most first): only two carry any - `comp-plan change > a behavior verdict naming an individual rep`; every other fix is a CRM setting or a review habit with no external sign-off, so the axis is not worth a full ordering.
 - efficiency at equal dollars (best first): `zombies > stale dates == wrong category > stage inflation == missing evidence > late-created deals > manager override > rep sandbagging > comp-driven bias`
@@ -87,7 +87,7 @@ Ties, each earned rather than dodged:
 | Missing / unverifiable evidence  | Data or behavior              | Required fields filled with placeholders; nobody can say what the buyer last did                                                        | Same week, same gate, same owner as stage inflation - shipping one ships the other                                                                                     |
 | Late-created deals               | Data                          | Deals created and closed within days, or created directly in a late stage - pipeline visibility is bookkeeping after the fact           | A week to set the logging rule, then a rep-habit change; coverage math is untrustworthy for a cycle or two after                                                       |
 | Manager roll-up override         | Behavior                      | Manager number diverges from the rep sum in a consistent direction with no logged reason                                                | An hour to capture reasons, but a quarter of trailing overrides before the per-manager score means anything, and managers must accept being scored                     |
-| Rep sandbagging                  | Behavior                      | Rep beats commit by a wide margin repeatedly; wins close from outside the forecast                                                      | A week to build the open calibration scorecard, 2+ periods of history before the pattern can be named at all; anything touching the incentive belongs to the row below |
+| Rep sandbagging                  | Behavior                      | Rep beats commit by a wide margin repeatedly; wins close from outside the forecast                                                      | A day to build the open calibration scorecard, 2+ periods of history before the pattern can be named at all; anything touching the incentive belongs to the row below  |
 | Comp-driven bias                 | Behavior (root of the others) | Slips cluster just past quota cliffs; predictable quarter-end discounts teach buyers to wait                                            | A quarter at best - plan amendments land at the next plan period, need finance/HR/legal sign-off, and are barely reversible once issued                                |
 
 The efficiency order starves comp-driven bias, the one cause that drives the others: top of the impact axis in most diagnoses, bottom of the ratio in every one. A register read by ratio alone recommends the same CRM hygiene every period while the incentive that produces the behavior stays untouched, and the behavioral causes regrow.
@@ -116,7 +116,7 @@ Deliver in leverage order, with the impact order printed beside it. Lead with th
 
 Every ordering here is a default, not a law. It shifts with the team and with who executes it, so re-rank against what the Interview and the reconstruction revealed:
 
-- Deadline inside the current period - delete every week-tier and quarter-tier fix from this cycle's plan and say which, rather than listing them at the bottom where they come back as scope. What survives is `zombies > stale dates > wrong category`, and the deliverable states plainly that the behavior causes are untouched.
+- Deadline inside the current period - delete every week-tier and quarter-tier fix, and every fix that needs periods of history before it means anything, from this cycle's plan and say which, rather than listing them at the bottom where they come back as scope. What survives is `zombies > stale dates > wrong category`, and the deliverable states plainly that the behavior causes are untouched.
 - A CRM admin on hand with authority to ship a validation rule this week - the hour-tier fixes stay an hour and lead. Without one, they become a week-tier request in someone else's queue and lose their ratio advantage to the evidence gate, which at least ships in the same week.
 - A sales leader who will not reopen the comp plan - delete the comp fix from the plan, and name the specific behavior causes that will regrow because of it. Do not park it at the bottom as a demoted option.
 - No snapshots or field history - the manager-override and sandbagging causes cannot be evidenced this pass at all. Delete them from the fix plan, start capturing history now, and schedule them for the re-run.

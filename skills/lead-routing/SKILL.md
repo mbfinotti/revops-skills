@@ -4,7 +4,7 @@ description: Design the assignment logic that routes inbound leads to sales reps
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.3.5"
+  version: "1.3.6"
 ---
 
 # Lead Routing
@@ -99,7 +99,7 @@ This list is deliberately not ranked by efficiency, and never gets reordered by 
 Build order does rank, and it is a different order from the one above:
 
 - efficiency (build order): tier 9 catch-all > tier 4 existing-account ownership > tier 5 territory > tier 6 product/skill/language > tiers 7-8 distribution
-- effort (build order): tier 5 territory (a week, then a standing job) > tier 6 (a week, plus a per-rep skill field) > tier 4 (a week, gated on match rate) > tiers 7-8 (see Distribution variants) > tier 9 (an hour)
+- effort (build order): tier 5 territory (a week, then a standing job) > tier 6 (a week, plus a per-rep skill field) > tier 4 (a day or two, gated on match rate) > tiers 7-8 (see Distribution variants) > tier 9 (an hour)
 
 - **Tier 9 catch-all, first:** an hour of work turns every silent drop into a visible exception, and it is the only tier that makes the others measurable.
 - **Tier 4 existing-account ownership, next:** it prevents the most damaging misroute, a current customer handed to a rep who has never spoken to them, but it is worthless below a 90% match rate, so fix matching first.

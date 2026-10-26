@@ -4,7 +4,7 @@ description: Audit existing sales pipeline stage definitions against buyer-verif
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.1.10"
+  version: "1.1.11"
 ---
 
 # Stage Definition Audit
@@ -99,8 +99,8 @@ They do not tie on effort: the migration is identical, and only the add asks rep
 
 1. **Criterion rewrite** - restate a failing exit criterion as a buyer act pointing at a field or artifact the system already holds. No picklist change, no migration, no forecast re-map. Near-zero to an hour per stage, plus one walkthrough in the review meeting that already happens; the old wording is a document edit away. Retires most Critical and High findings on its own.
 2. **Standing inspection** - exit criteria on the recurring pipeline-review agenda, plus a quarterly inter-rater re-sample. An hour a quarter, forever. Recovers no accuracy by itself, and earns its rank by being the only rung that stops every rung above it drifting back to opinion within two quarters.
-3. **Evidence plumbing** - create the required field, validation rule, or evidence link a rewritten criterion names but the system does not capture. A week of admin configuration plus retraining every rep who touches that stage. Reversible in configuration, never in retraining. This is what turns a criterion that passes review into one that holds in production.
-4. **Stage cut or merge** - deactivate-and-add a stage that maps to no buying job or duplicates its neighbor. A week to a quarter: open-deal moves, forecast-category re-map, and the stage-keyed automation inventory. Breaks the trend series at cutover, and reversing it breaks it a second time.
+3. **Evidence plumbing** - create the required field, validation rule, or evidence link a rewritten criterion names but the system does not capture. A day or two of admin configuration plus retraining every rep who touches that stage. Reversible in configuration, never in retraining. This is what turns a criterion that passes review into one that holds in production.
+4. **Stage cut or merge** - deactivate-and-add a stage that maps to no buying job or duplicates its neighbor. Days to a quarter: open-deal moves, forecast-category re-map, and the stage-keyed automation inventory. Breaks the trend series at cutover, and reversing it breaks it a second time.
 5. **Stage add** - a new stage for a buying job nothing covers. The same migration as the cut, plus a behavior reps have never been asked for and managers have never inspected. A quarter.
 6. **Full redefinition** - the stage set rebuilt as a coherent series rather than patched cell by cell. Out of scope here by Ground Rules; route it rather than attempting it.
 
@@ -121,7 +121,7 @@ Delete a ruled-out rung rather than demoting it: a rung parked at the bottom of 
 
 The order is a default, not a law: it shifts with context and with who executes it. Re-rank it against the Interview's answers.
 
-- **CRM admin on hand:** collapses the plumbing rung from a week to an hour and moves it above the standing inspection.
+- **CRM admin on hand:** collapses the plumbing rung from a day or two to an hour and moves it above the standing inspection.
 - **Sales team mid-quarter:** strikes every migration rung until the quarter closes, because a stage change corrupts the quarter it lands in.
 - **Pipeline small enough to re-stage by hand:** drops the cut and add rungs by an order of magnitude and promotes both above the plumbing.
 

@@ -4,7 +4,7 @@ description: Define the metric set and narrative structure for an executive or b
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.3.1"
+  version: "1.3.2"
 ---
 
 # Revenue Reporting
@@ -120,7 +120,7 @@ Three artifacts, not one report at three speeds - each has its own audience, dep
 | Focus            | Current-period execution, deal/account risk | Plan-vs-actual trends, funnel, efficiency    | Full spine + narrative + decisions                            |
 | Artifact         | Live view, no narrative                     | Scorecard + one-page narrative               | Pre-read deck + appendix + pre-wire                           |
 | Forward edge     | This period's commit                        | Next month's priorities                      | Reset targets, capital, hiring                                |
-| Preparation cost | Near-zero per run once the live view exists | An hour to a day, gated on the finance close | A week or more: pre-read, appendix, pre-wires, sign-off chain |
+| Preparation cost | Near-zero per run once the live view exists | An hour or two, gated on the finance close   | A few days: pre-read, appendix, pre-wires, sign-off chain     |
 
 These are layers, not competing options, so no efficiency ranking applies between them - each answers a different audience's question, and weekly execution signals feed the monthly trend read, which feeds the quarterly reset. Ranking three artifacts that do not substitute for each other would be false precision.
 

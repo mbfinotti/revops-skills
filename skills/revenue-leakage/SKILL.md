@@ -4,7 +4,7 @@ description: Trace where deals and revenue silently exit one specific funnel and
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.4.2"
+  version: "1.4.3"
 ---
 
 # Revenue Leakage

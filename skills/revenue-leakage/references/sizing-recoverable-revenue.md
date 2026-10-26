@@ -59,7 +59,7 @@ compliance cost (review triggered, heaviest first)
 
 - **alert/escalation** - a threshold alert or escalation on an event the funnel already emits (unaccepted past the handoff window, stalled past dwell time). Near-zero effort, one config change, switched off to reverse; the value recurs every cycle.
 - **routing fallback** - a fallback owner or reassignment rule closing an ownership vacuum. An hour, same system, same reversibility.
-- **recovery sequence** - a retry or dunning path wired to an existing failure event. A day of billing configuration; in self-serve funnels this is usually the single largest recurring recoverable number.
+- **recovery sequence** - a retry or dunning path wired to an existing failure event. Half a day of billing configuration, most of it testing the retry path; in self-serve funnels this is usually the single largest recurring recoverable number.
 - **one-off rework** - working the records that already leaked. An hour of analyst or rep time and no system touched, but the value is bounded by that record set and never recurs.
 - **process redesign** - rebuilding the handoff, contracting, or renewal motion itself. A quarter, cross-team, and hard to reverse once teams have re-learned it.
 

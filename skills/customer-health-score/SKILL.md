@@ -4,7 +4,7 @@ description: Design, validate, and govern a composite customer health score - pr
 license: MIT
 metadata:
   author: Maya-Beth Finotti
-  version: "1.0.1"
+  version: "1.0.2"
 ---
 
 # Customer Health Score
@@ -35,7 +35,7 @@ Draw on the field's named canon where it genuinely helps:
 
 One composite score, or a separate expansion model:
 
-- **One composite, top band gates expansion (default).** Already the score being built and validated; a second model costs a quarter to build and two validation loops to keep. Gating expansion plays on the top band is the dominant practitioner pattern: low bands trigger retention, the top band triggers expansion/advocacy motions.
+- **One composite, top band gates expansion (default).** Already the score being built and validated; a second model costs a month to build and two validation loops to keep. Gating expansion plays on the top band is the dominant practitioner pattern: low bands trigger retention, the top band triggers expansion/advocacy motions.
 - **A separate expansion model.** Justified only when expansion-specific inputs are systematically tracked; otherwise it is a second unvalidated score.
 
 Only vendor case studies support the claim that high health causally predicts expansion; no rigorous published study does. Treat health as necessary but not sufficient for expansion: the top band earns an account the conversation, and fit, whitespace, and budget decide it.
@@ -71,7 +71,7 @@ Build the score rung by rung, ranked by churn actually prevented per hour of ana
   - usage/adoption and commercial/billing: near-zero - the product and billing system already emit the events.
   - support: an hour to map tickets to rates and trends.
   - stakeholder continuity: a standing job - humans must log meetings and sponsor changes for the input to stay true.
-  - sentiment survey: a week to stand up, plus a standing job to run - low response rates keep it unstable.
+  - sentiment survey: a day or two to stand up, plus a standing job to run - low response rates keep it unstable.
 
 Support and commercial tie on value because each catches a blind spot the other cannot - escalation clusters, invoice disputes - and neither substitutes for the other.
 
@@ -153,7 +153,8 @@ When the user arrives with a running score ("green accounts keep churning", "the
 - effort:
   - decay and the noise guard: near-zero.
   - normalization, caps, the ticket read, and the expansion gate: an hour each.
-  - segment calibration and the cross-team coordination that wires plays to owners and SLAs: a week.
+  - segment calibration: a day or two of analysis.
+  - the cross-team coordination that wires plays to owners and SLAs: a week.
   - cohort re-derivation: a standing job, which also needs churned-account history the book may not have.
 
 Ties justified:
